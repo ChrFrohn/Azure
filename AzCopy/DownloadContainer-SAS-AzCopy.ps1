@@ -5,4 +5,4 @@
 $SAS = ""
 
 #Copies cotainer content from blob to local computer path using SAS
-.\azcopy.exe copy "https://STORAGEACOUNTNAME.blob.core.windows.net/CONTAINER/$SAS" --recursive" --recursive "CopyFromFolderPath"
+.\azcopy.exe copy "https://STORAGEACOUNTNAME.blob.core.windows.net/CONTAINER/$SAS" --recursive "CopyFromFolderPath"
