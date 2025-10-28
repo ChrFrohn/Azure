@@ -44,8 +44,8 @@ try {
         Write-Host "`nProcessing Logic App: $($LogicApp.Name)" -ForegroundColor Cyan
         
         try {
-            # Create log settings object for WorkflowRuntime category
-            $logSettings = New-AzDiagnosticSettingLogSettingsObject -Enabled $true -Category "WorkflowRuntime"
+            # Create log settings object for all log categories
+            $logSettings = New-AzDiagnosticSettingLogSettingsObject -Enabled $true -CategoryGroup "allLogs"
             
             # Create metric settings object for AllMetrics
             $metricSettings = New-AzDiagnosticSettingMetricSettingsObject -Enabled $true -Category "AllMetrics"
