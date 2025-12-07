@@ -1,0 +1,12 @@
+{
+  "azure": {
+    "logAnalyticsSubscriptionId": "",
+    "logAnalytics": {
+      "workspaceName": "",
+      "resourceGroup": ""
+    },
+    "defaults": {
+      "diagnosticSettingName": "AzureDiagnosticSettings"
+    }
+  }
+}
